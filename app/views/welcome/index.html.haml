@@ -1,1 +1,8 @@
-Hi there.
+.app{ 'ng-app' => 'download' }
+  
+  .downloads{ 'ng-controller' => 'DownloadCtrl', 'ng-init' => 'link = "http://zoomq.dn.qbox.me/ZHGDG/crx/elf_v1.0.crx"; refresh()' }
+    .loading{ 'ng-show' => 'loading', 'style' => 'color: grey' } Loading...
+    .count{ 'style' => 'font-size: 0.7em' } Download count: {{ download_count }}
+    .link    
+      %a{ 'ng-click' => 'download()', 'style' => 'color: blue' } Download me.
+  
