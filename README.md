@@ -4,6 +4,6 @@ Zoom.Quiet wanted to see how to build a download link counter. This is a rails i
 
 ![First](images/first.png)
 ![Second](images/second.png)
-![Third](image/third.png)
+![Third](images/third.png)
 
 
